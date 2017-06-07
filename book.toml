@@ -1,0 +1,10 @@
+title = "The Rust Cookbook"
+author = "The Rust Community"
+description = "Recipes for tastier and healthier coding with Rust"
+source = "src"
+
+[output.html]
+destination = "book"
+theme = "theme"
+additional-css = ["theme/custom.css"]
+additional-js = ["theme/custom.js"]
