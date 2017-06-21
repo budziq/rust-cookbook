@@ -8,8 +8,9 @@ publish = false
 build = "build.rs"
 
 [dependencies]
+bitflags = "0.9"
 byteorder = "1.0"
-clap = "2.0"
+clap = "2.25"
 crossbeam = "0.2"
 chrono = "0.3"
 data-encoding = "2.0.0-rc.1"
