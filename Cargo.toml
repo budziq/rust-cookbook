@@ -52,9 +52,9 @@ walkdir = "2.0"
 
 
 [build-dependencies]
-skeptic = "0.13"
+skeptic = { path = "../rust-skeptic/src/skeptic"}
 walkdir = "2.0"
 
 [dev-dependencies]
-skeptic = "0.13"
+skeptic = { path = "../rust-skeptic/src/skeptic"}
 walkdir = "2.0"
